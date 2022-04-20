@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: center;
     border: solid black;
+    margin-bottom: 2vh;
 }
 
 #library {
@@ -14,13 +15,23 @@ header {
 
 #buttons {
     position: sticky;
+    bottom: 1vh;
     display: flex;
     justify-content: flex-end;
     border: solid red;
 }
 
-.movieGridBox {
+.notecardGrid {
     width: 25vw;
     height: 15vw;
     background-color: aqua;
+    border: solid purple;
+}
+
+#newMovieForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid purple;
 }

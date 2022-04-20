@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Movie List</title>
+        <title>Flashcard</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -18,7 +18,7 @@
         <![endif]-->
         <header id="header">
             <div>
-                <p>Movie List Website</p>
+                <p>Flashcard Website</p>
             </div>
         </header>
 
@@ -27,8 +27,15 @@
         </div>
 
         <div id="buttons">
-            <div>
-                <button id="addNewMovie">Add new</button>
+            <div id="newNotecardForm">
+                <p>New Notecard</p>
+                <form>
+                    <label>Title</label>
+                    <input type="text" id="titleForm">
+                    <label>Front</label>
+                    <input type="text" id="frontForm">
+                </form>
+                <button id="addNewNotecard">Submit</button>
             </div>
         </div>
 
