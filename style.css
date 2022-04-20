@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: center;
+    border: solid black;
+}
+
+#library {
+    border: solid green;
+    display: grid;
+    justify-items: center;
+    grid-gap: 20px 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#buttons {
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    border: solid red;
+}
+
+.movieGridBox {
+    width: 25vw;
+    height: 15vw;
+    background-color: aqua;
+}
