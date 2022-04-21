@@ -1,16 +1,22 @@
+body {
+    background-color: #EAE7DC;
+}
 header {
     display: flex;
     justify-content: center;
     border: solid black;
     margin-bottom: 2vh;
+    background-color: #E98074;
 }
 
 #library {
-    border: solid green;
     display: grid;
     justify-items: center;
     grid-gap: 20px 20px;
     grid-template-columns: 1fr 1fr 1fr;
+    min-height: 80vh;
+    background-color: #D8C3A5;
+    border-radius: 1vh;
 }
 
 #buttons {
@@ -24,14 +30,28 @@ header {
 .notecardGrid {
     width: 25vw;
     height: 15vw;
-    background-color: aqua;
-    border: solid purple;
+    background-color: #8E8D8A;
+    margin-top: 2vh;
+    border-radius: 1vh;
+    padding: 1vh 1vh 1vh 1vh
 }
 
-#newMovieForm {
+#newNotecardForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid purple;
+}
+
+#cardTitle {
+    background-color: #E98074;
+}
+
+.cardBody {
+    border: solid brown;
+}
+
+#cardTags {
+    border: navajowhite
 }
