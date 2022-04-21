@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 body {
     background-color: #EAE7DC;
+    font-family: 'Poppins';
 }
 header {
     display: flex;
@@ -24,7 +27,7 @@ header {
     bottom: 1vh;
     display: flex;
     justify-content: flex-end;
-    border: solid red;
+    background-color: #E98074;
 }
 
 .notecardGrid {
@@ -33,25 +36,34 @@ header {
     background-color: #8E8D8A;
     margin-top: 2vh;
     border-radius: 1vh;
-    padding: 1vh 1vh 1vh 1vh
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 #newNotecardForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: solid purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-start;
 }
+
 
 #cardTitle {
     background-color: #E98074;
+    font-weight: 700;
+    border-radius: 1vh;
+    text-align: center;
 }
 
 .cardBody {
-    border: solid brown;
+    padding: .5vh;
 }
 
 #cardTags {
-    border: navajowhite
+    border: navajowhite;
+    text-align: center;
+    font-size: x-small;
 }

@@ -1,6 +1,6 @@
 let library = [
-    {title: 'Wolf of Wallstreet', front: 'text', back:'back', tags:'green,science'},
-    {title: 'Interstellar', front: 'textt', back:'back', tags:'red,math'},
+    {title: 'Title Notecard 1', front: 'text', back:'back', tags:'green,science'},
+    {title: 'Title Notecard 2', front: 'textt', back:'back', tags:'red,math'},
 ]
 
 //create new object 'notecard', assign properties based on arguments
